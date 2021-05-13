@@ -22,11 +22,11 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/bymagnum/go-elleum/common"
+	"github.com/bymagnum/go-elleum/core/types"
+	"github.com/bymagnum/go-elleum/log"
+	"github.com/bymagnum/go-elleum/params"
+	"github.com/bymagnum/go-elleum/rpc"
 )
 
 const sampleNumber = 3 // Number of transactions sampled in a block

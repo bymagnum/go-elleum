@@ -20,9 +20,9 @@ import (
 	"hash"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/bymagnum/go-elleum/common"
+	"github.com/bymagnum/go-elleum/common/math"
+	"github.com/bymagnum/go-elleum/log"
 )
 
 // Config are the configuration options for the Interpreter

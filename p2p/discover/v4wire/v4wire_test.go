@@ -22,10 +22,10 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/bymagnum/go-elleum/common"
+	"github.com/bymagnum/go-elleum/crypto"
+	"github.com/bymagnum/go-elleum/rlp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
 )
 
 // EIP-8 test vectors.

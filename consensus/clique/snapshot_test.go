@@ -22,13 +22,13 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/bymagnum/go-elleum/common"
+	"github.com/bymagnum/go-elleum/core"
+	"github.com/bymagnum/go-elleum/core/rawdb"
+	"github.com/bymagnum/go-elleum/core/types"
+	"github.com/bymagnum/go-elleum/core/vm"
+	"github.com/bymagnum/go-elleum/crypto"
+	"github.com/bymagnum/go-elleum/params"
 )
 
 // testerAccountPool is a pool to maintain currently active tester accounts,

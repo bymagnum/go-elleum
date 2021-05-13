@@ -25,17 +25,17 @@ import (
 	"time"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/bymagnum/go-elleum/common"
+	"github.com/bymagnum/go-elleum/common/hexutil"
+	"github.com/bymagnum/go-elleum/common/math"
+	"github.com/bymagnum/go-elleum/core/rawdb"
+	"github.com/bymagnum/go-elleum/crypto"
+	"github.com/bymagnum/go-elleum/ethdb"
+	"github.com/bymagnum/go-elleum/ethdb/memorydb"
+	"github.com/bymagnum/go-elleum/log"
+	"github.com/bymagnum/go-elleum/metrics"
+	"github.com/bymagnum/go-elleum/rlp"
+	"github.com/bymagnum/go-elleum/trie"
 )
 
 var (

@@ -29,16 +29,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/bymagnum/go-elleum/common"
+	"github.com/bymagnum/go-elleum/common/mclock"
+	"github.com/bymagnum/go-elleum/crypto"
+	"github.com/bymagnum/go-elleum/event"
+	"github.com/bymagnum/go-elleum/log"
+	"github.com/bymagnum/go-elleum/p2p/discover"
+	"github.com/bymagnum/go-elleum/p2p/enode"
+	"github.com/bymagnum/go-elleum/p2p/enr"
+	"github.com/bymagnum/go-elleum/p2p/nat"
+	"github.com/bymagnum/go-elleum/p2p/netutil"
 )
 
 const (

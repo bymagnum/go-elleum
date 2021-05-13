@@ -19,8 +19,8 @@ package trie
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/bymagnum/go-elleum/common"
+	"github.com/bymagnum/go-elleum/log"
 )
 
 // SecureTrie wraps a trie with key hashing. In a secure trie, all

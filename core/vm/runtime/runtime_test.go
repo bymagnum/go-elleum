@@ -24,16 +24,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/asm"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/bymagnum/go-elleum/accounts/abi"
+	"github.com/bymagnum/go-elleum/common"
+	"github.com/bymagnum/go-elleum/consensus"
+	"github.com/bymagnum/go-elleum/core"
+	"github.com/bymagnum/go-elleum/core/asm"
+	"github.com/bymagnum/go-elleum/core/rawdb"
+	"github.com/bymagnum/go-elleum/core/state"
+	"github.com/bymagnum/go-elleum/core/types"
+	"github.com/bymagnum/go-elleum/core/vm"
+	"github.com/bymagnum/go-elleum/params"
 )
 
 func TestDefaults(t *testing.T) {

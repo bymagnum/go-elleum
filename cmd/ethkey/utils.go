@@ -22,8 +22,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/bymagnum/go-elleum/cmd/utils"
+	"github.com/bymagnum/go-elleum/crypto"
 	"gopkg.in/urfave/cli.v1"
 )
 

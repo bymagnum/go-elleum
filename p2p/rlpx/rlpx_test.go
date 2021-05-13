@@ -27,10 +27,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/bymagnum/go-elleum/crypto"
+	"github.com/bymagnum/go-elleum/crypto/ecies"
+	"github.com/bymagnum/go-elleum/rlp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/ecies"
-	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -28,12 +28,12 @@ import (
 	"strings"
 	"syscall"
 
+	"github.com/bymagnum/go-elleum/console/prompt"
+	"github.com/bymagnum/go-elleum/internal/jsre"
+	"github.com/bymagnum/go-elleum/internal/jsre/deps"
+	"github.com/bymagnum/go-elleum/internal/web3ext"
+	"github.com/bymagnum/go-elleum/rpc"
 	"github.com/dop251/goja"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/internal/jsre/deps"
-	"github.com/ethereum/go-ethereum/internal/web3ext"
-	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 )

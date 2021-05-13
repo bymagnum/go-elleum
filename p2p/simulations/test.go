@@ -19,10 +19,10 @@ package simulations
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/bymagnum/go-elleum/p2p"
+	"github.com/bymagnum/go-elleum/p2p/enode"
+	"github.com/bymagnum/go-elleum/p2p/enr"
+	"github.com/bymagnum/go-elleum/rpc"
 )
 
 // NoopService is the service that does not do anything

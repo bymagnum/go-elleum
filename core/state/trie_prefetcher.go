@@ -19,9 +19,9 @@ package state
 import (
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/bymagnum/go-elleum/common"
+	"github.com/bymagnum/go-elleum/log"
+	"github.com/bymagnum/go-elleum/metrics"
 )
 
 var (

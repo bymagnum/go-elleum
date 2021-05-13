@@ -22,13 +22,13 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/bymagnum/go-elleum/core/types"
+	"github.com/bymagnum/go-elleum/crypto"
+	"github.com/bymagnum/go-elleum/eth/protocols/eth"
+	"github.com/bymagnum/go-elleum/internal/utesting"
+	"github.com/bymagnum/go-elleum/p2p"
+	"github.com/bymagnum/go-elleum/p2p/rlpx"
+	"github.com/bymagnum/go-elleum/rlp"
 )
 
 type Message interface {

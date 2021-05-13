@@ -28,10 +28,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/bymagnum/go-elleum/common"
+	"github.com/bymagnum/go-elleum/eth/protocols/eth"
+	"github.com/bymagnum/go-elleum/event"
+	"github.com/bymagnum/go-elleum/log"
 )
 
 const (

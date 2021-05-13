@@ -22,14 +22,14 @@ import (
 	"strings"
 	"time"
 
+	"github.com/bymagnum/go-elleum/core/types"
+	"github.com/bymagnum/go-elleum/crypto"
+	"github.com/bymagnum/go-elleum/eth/protocols/eth"
+	"github.com/bymagnum/go-elleum/internal/utesting"
+	"github.com/bymagnum/go-elleum/p2p"
+	"github.com/bymagnum/go-elleum/p2p/enode"
+	"github.com/bymagnum/go-elleum/p2p/rlpx"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
 	"github.com/stretchr/testify/assert"
 )
 

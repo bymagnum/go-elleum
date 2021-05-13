@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/bymagnum/go-elleum/log"
+	"github.com/bymagnum/go-elleum/p2p/dnsdisc"
 	"github.com/cloudflare/cloudflare-go"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/dnsdisc"
 	"gopkg.in/urfave/cli.v1"
 )
 

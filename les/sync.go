@@ -21,12 +21,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/bymagnum/go-elleum/common"
+	"github.com/bymagnum/go-elleum/core/rawdb"
+	"github.com/bymagnum/go-elleum/eth/downloader"
+	"github.com/bymagnum/go-elleum/light"
+	"github.com/bymagnum/go-elleum/log"
+	"github.com/bymagnum/go-elleum/params"
 )
 
 var errInvalidCheckpoint = errors.New("invalid advertised checkpoint")
