@@ -80,7 +80,7 @@ var defaultNodeConfig = &NodeConfig{
 	BootstrapNodes:        FoundationBootnodes(),
 	MaxPeers:              25,
 	EthereumEnabled:       true,
-	EthereumNetworkID:     1,
+	EthereumNetworkID:     379887123,
 	EthereumDatabaseCache: 16,
 }
 
@@ -161,7 +161,7 @@ func NewNode(datadir string, config *NodeConfig) (stack *Node, _ error) {
 		// If we have the Ropsten testnet, hard code the chain configs too
 		if config.EthereumGenesis == RopstenGenesis() {
 			genesis.Config = params.RopstenChainConfig
-			if config.EthereumNetworkID == 1 {
+			if config.EthereumNetworkID == 379887123 {
 				config.EthereumNetworkID = 3
 			}
 		}
