@@ -1,12 +1,12 @@
 """
-This implements a dispatcher which listens to localhost:8550, and proxies
+This implements a dispatcher which listens to localhost:3850, and proxies
 requests via qrexec to the service qubes.EthSign on a target domain
 """
 
 import http.server
 import socketserver,subprocess
 
-PORT=8550
+PORT=3850
 TARGET_DOMAIN= 'debian-work'
 
 class Dispatcher(http.server.BaseHTTPRequestHandler):
