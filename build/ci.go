@@ -831,7 +831,7 @@ func doAndroidArchive(cmdline []string) {
 	build.MustRun(tc.Go("mod", "download"))
 
 	// Build the Android archive and Maven resources
-	build.MustRun(gomobileTool("bind", "-ldflags", "-s -w", "--target", "android", "--javapkg", "org.ethereum", "-v", "github.com/bymagnum/go-elleum/mobile"))
+	build.MustRun(gomobileTool("bind", "-ldflags", "-s -w", "--target", "android", "--javapkg", "org.elleum", "-v", "github.com/bymagnum/go-elleum/mobile"))
 
 	if *local {
 		// If we're building locally, copy bundle to build dir and skip Maven

@@ -1922,7 +1922,7 @@ func TestJavaBindings(t *testing.T) {
 
 package bindtest;
 
-import org.ethereum.geth.*;
+import org.elleum.geth.*;
 import java.util.*;
 
 public class Test {

@@ -560,7 +560,7 @@ const tmplSourceJava = `
 
 package {{.Package}};
 
-import org.ethereum.geth.*;
+import org.elleum.geth.*;
 import java.util.*;
 
 {{$structs := .Structs}}
