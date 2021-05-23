@@ -82,13 +82,9 @@ var (
 
 	// MainnetCheckpointOracle contains a set of configs for the main network oracle.
 	MainnetCheckpointOracle = &CheckpointOracleConfig{
-		Address: common.HexToAddress("0x9a9070028361F7AAbeB3f2F2Dc07F82C4a98A02a"),
+		Address: common.HexToAddress("0x83b0e64516bbf9bf92df84fc165e4a0065b26a77"),
 		Signers: []common.Address{
-			common.HexToAddress("0x1b2C260efc720BE89101890E4Db589b44E950527"), // Peter
-			common.HexToAddress("0x78d1aD571A1A09D60D9BBf25894b44e4C8859595"), // Martin
-			common.HexToAddress("0x286834935f4A8Cfb4FF4C77D5770C2775aE2b0E7"), // Zsolt
-			common.HexToAddress("0xb86e2B0Ab5A4B1373e40c51A7C712c70Ba2f9f8E"), // Gary
-			common.HexToAddress("0x0DF8fa387C602AE62559cC4aFa4972A7045d6707"), // Guillaume
+			common.HexToAddress("0xd57ae0df3b6f5157a2acb88b494da2175c6929e2"), // ell-org
 		},
 		Threshold: 2,
 	}
