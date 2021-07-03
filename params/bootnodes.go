@@ -21,7 +21,7 @@ import "github.com/bymagnum/go-elleum/common"
 // MainnetBootnodes are the enode URLs of the P2P bootstrap nodes running on
 // the main Ethereum network.
 var MainnetBootnodes = []string{
-	"enode://818622a826c45c8d8affdd3526612d90db1c5c9c4e325f4a36c46eab467021eeada05d9e001c2f2a3f5a5cf264af4391405316b05dec8c6df32bf2119405618a@193.37.212.83:37988",
+	"enode://818622a826c45c8d8affdd3526612d90db1c5c9c4e325f4a36c46eab467021eeada05d9e001c2f2a3f5a5cf264af4391405316b05dec8c6df32bf2119405618a@213.136.73.238:37988",
 	"enode://ae01c179b8dc51cc1a845209dabde8254afea575dd1e1ea75b95fd70b2c3a75df2350e24718b386984005d912793bdecd4d5d8e7b5e7ab84aa4fea48584186c3@45.89.230.71:37988",
 	"enode://7a1c16acc7b3d3142afadc91e9975261b71b97091d6dbcfc6bf003230dea4ae543a41f34351acffb12d733923527823c535af0305147f7cd54b0c55e0b23cc68@45.129.3.35:37988",
 }
